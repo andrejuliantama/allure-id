@@ -1,0 +1,30 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+
+  .picture {
+    border-radius: 9999px;
+  }
+  
+  button{
+    background-color: coral; 
+    color: white;
+    border-radius: 5px;
+    padding: 0.3rem 0.8rem;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transition-duration: 0.3s;
+  }
+
+  
+
+}
